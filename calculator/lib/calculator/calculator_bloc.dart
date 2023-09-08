@@ -30,8 +30,6 @@ class CalculatorBloc extends Bloc<CalculatorEvent, CalculatorState> {
             var result = (state.result == '0') ? event.number : state.result + event.number;
               emit(CalculatorInitial(result: result, ntemp: state.ntemp, operator:state.operator));
         }
-
-       
         // Borra el ultimo digitio
        delete() {
           if(state.result.length>1){

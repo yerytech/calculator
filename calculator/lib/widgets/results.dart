@@ -18,7 +18,7 @@ class Result extends StatelessWidget {
     Container(
       alignment: Alignment.bottomRight,
       
-      child: Text(state.result,style: TextStyle(fontSize:size.width/5,color: Colors.white),),
+      child: Text(state.result,style: TextStyle(fontSize:size.width/8,color: Colors.white),),
     );
     }
     

@@ -20,11 +20,11 @@ class KeyBoardCalculator extends StatelessWidget {
      color: Colors.black ,
       // alignment: Alignment.bottomCenter,
              child: Row(
-              crossAxisAlignment: CrossAxisAlignment.center,
+         
               mainAxisAlignment: MainAxisAlignment.center,
               children: [ 
                 Column(
-                 
+                
                 children: [
                   ButtonCalculator(funtion:()=>calcularorBloc.add(ResetAC()) , txt: 'AC', btnColor: otherFuntionColors),
                   ButtonCalculator(funtion:()=>calcularorBloc.add(AddNumber(number: '7')) , txt: '7', btnColor:numberColors),
