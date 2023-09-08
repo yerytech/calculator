@@ -12,9 +12,3 @@ class AddNumber extends CalculatorEvent{
   AddNumber({required this.number});
 }
 
-class Orientation extends CalculatorEvent{
-  final bool value;
-  Orientation({required this.value});
-
-
-}
