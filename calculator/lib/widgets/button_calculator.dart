@@ -9,8 +9,6 @@ final Color btnColor;
   @override
   Widget build(BuildContext context) {
    var size = MediaQuery.of(context).size;
-
-
     return Container(
       padding: const EdgeInsets.all(8),
       height: size.height/8,
